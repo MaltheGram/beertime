@@ -1,4 +1,6 @@
 {
+  "name": "beertime",
+  "version": "18.8.0",
   "type": "module",
   "dependencies": {
     "express": "^4.18.1",
