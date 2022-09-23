@@ -29,7 +29,7 @@ const friday = () => {
     audio.play()
         .then( )
         .catch(error => console.error('Error playing music: ', error))
-
+    audio.loop = true
     document.body.style.backgroundImage = "url('beer.png')"
     document.body.style.fontWeight = "900"
 
